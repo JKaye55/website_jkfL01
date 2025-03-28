@@ -110,3 +110,33 @@ footer p{
     padding: 10px;
 }
 
+.flex-container{
+    width: auto;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-container section{
+    margin:10px;
+    flex-grow: 1; 
+    align-content: center;
+
+}
+
+.flex-container article{
+    margin:10px;
+    flex-grow: 1; 
+    align-content: center;
+
+
+}
+
+.flex-container-2 .main_content {
+    
+    display: flex;
+}
+
+
