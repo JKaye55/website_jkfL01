@@ -139,42 +139,32 @@ footer p{
     }
 
     .flex-container-2 {
+        height: 260px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         
-      
-
 
         }
 
 .flex-container-2 aside{
     
     flex: 0 0 25%;
-    margin: 5px;
    }   
 
 .flex-container-2 .main_content {
 
 
-        flex-grow: 1;   
-        margin: 5px;
+        flex-direction: column;
 
 }
 
 .flex-container-2 .main_content section {
 
-    margin: auto;
+    flex-grow: 1;
 
 }
 
-.flex-container-2 .main_content article {
-
-    margin: auto;
-    background-color: #5f9ea000;
-
-
-}
 .column_content section {
     padding-right: 1805px;
     padding-top: 30px;
@@ -184,7 +174,7 @@ footer p{
 .column_content article{
     padding-bottom: 30px;
     margin-top: 30px;
-    
+    background-color: white;
 }
 
   
